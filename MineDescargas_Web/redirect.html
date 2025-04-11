@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirigiendo...</title>
+  <script>
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const url = urlParams.get('url');
+    setTimeout(() => {
+      window.location.href = url;
+    }, 5000); // Espera 5 segundos
+  </script>
+</head>
+<body style="background:#111; color:white; text-align:center; padding-top:100px;">
+  <h1>¡Espere un momento!</h1>
+  <p>Estamos preparando tu descarga... mientras tanto, ¡mirá esta publicidad!</p>
+  <!-- Aquí podrías insertar anuncios reales -->
+</body>
+</html>

@@ -1,0 +1,80 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  background-color: #121212;
+  color: #c2f932;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #1e1e1e;
+  padding: 20px;
+  height: 100vh;
+  position: fixed;
+}
+
+.sidebar h2 {
+  color: #c2f932;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.sidebar nav a {
+  display: block;
+  margin: 10px 0;
+  color: #c2f932;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.sidebar nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+.item {
+  display: flex;
+  background: #1a1a1a;
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 10px;
+  gap: 20px;
+}
+
+.item img {
+  border-radius: 10px;
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.info h2 {
+  margin: 0 0 10px;
+  font-size: 1.4em;
+}
+
+.download {
+  display: inline-block;
+  background: #2e7d32;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.recommend-btn {
+  display: inline-block;
+  background: #29b6f6;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+  font-weight: bold;
+}
